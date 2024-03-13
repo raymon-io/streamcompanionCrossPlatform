@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Stream Companion App",
+    "slug": "streamcompanionCrossPlatform",
+    "version": "1.0.11",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.streamcompanion"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "app.streamcompanion",
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE,android.permission.SYSTEM_ALERT_WINDOW,android.permission.VIBRATE,android.permission.WRITE_EXTERNAL_STORAGE"
+      ],
+      "versionCode": 11
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@react-native-tvos/config-tv",
+        {
+          "isTV": true,
+          "showVerboseWarnings": true,
+          "androidTVBanner": "./assets/tv_banner2.png",
+          "appleTVImages": {
+            "icon": "./assets/ios_tv_icon.png",
+            "iconSmall": "./assets/ios_tv_iconSmall.png",
+            "iconSmall2x": "./assets/ios_tv_iconSmall2x.png",
+            "topShelf": "./assets/ios_tv_topShelf.png",
+            "topShelf2x": "./assets/ios_tv_topShelf2x.png",
+            "topShelfWide": "./assets/ios_tv_topShelfWide.png",
+            "topShelfWide2x": "./assets/ios_tv_topShelfWide2x.png"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "69dd6da4-da7a-461d-ba6b-c45b321d500a"
+      }
+    }
+  }
+}

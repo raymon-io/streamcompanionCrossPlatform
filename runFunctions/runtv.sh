@@ -1,0 +1,1 @@
+export DEBUG=expo:react-native-tvos:config-tv

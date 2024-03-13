@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "version": ">= 7.2.0",
+    "promptToConfigurePushNotifications": true
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_TV": "1",
+        "DEBUG": "expo:react-native-tvos:config-tv"
+      },
+      "ios": {
+        "credentialsSource": "local"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
