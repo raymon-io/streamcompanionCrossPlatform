@@ -343,7 +343,7 @@ const About = () => {
         
       </TouchableOpacity>
 
-      <Text style={{ color: 'white', fontSize: 18 }}>Current Version: 1.0.11</Text>
+      <Text style={{ color: 'white', fontSize: 18 }}>Current Version: 1.0.12</Text>
 
     </View>
   );

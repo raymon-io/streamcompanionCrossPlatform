@@ -31,6 +31,7 @@ const RNVideoVideo = forwardRef<VideoRef, RNVideoVideoProps>((props, ref) => {
     //   console.log('resumeTime', resumeTimeInt);
     //   videoRef.current.seek(resumeTimeInt);
     // }
+    console.log('resumeTime', resumeTime, 'uuid', uuid);
     if (resumeTime && uuid) {
       // get data from async storage
       let resumeStr = '';
@@ -42,8 +43,15 @@ const RNVideoVideo = forwardRef<VideoRef, RNVideoVideoProps>((props, ref) => {
       
       if (resumeStr) {
         const resumeTimeInt = parseInt(resumeStr);
-        if (videoRef.current) {
-          videoRef.current.seek(resumeTimeInt);
+        try {
+          // @ts-ignore
+          if (ref && ref.current) {
+            console.log('seeking to', resumeTimeInt);
+            // @ts-ignore
+            ref.current.seek(resumeTimeInt);
+          }
+        } catch (e) {
+          console.error('Error seeking to resumeTimeInt', e);
         }
       }
     }
@@ -91,6 +99,7 @@ const RNVideoVideo = forwardRef<VideoRef, RNVideoVideoProps>((props, ref) => {
       // forwardRewind
       onProgress={onProgress} 
       onLoad={handleLoad}
+      // onLoad={dohandleLoad}
       focusable={true}
       // onProgress={handleProgress} 
       />
