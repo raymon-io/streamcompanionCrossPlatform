@@ -1,8 +1,10 @@
 ## Stream Companion App (StreamCompanion.App)
-#### Cross platform App to enhance streaming platforms.
+##### Cross platform App to enhance streaming platforms. Currently works on Android, ios mobile. Also works on Android TV, FireTV, Apple TV. A slight different variation works on Samsung TV, Xbox.
 #### More info and download links:
 #### App Store: https://streamcompanion.app/apps
 #### Releases:  https://github.com/raymon-io/streamcompanionCrossPlatform/releases
+#### Reddit post: https://www.reddit.com/r/xqcow/comments/1be1qd0/made_kick_mobile_and_tv_apps_including_android_tv/
+#### Youtube Demo: https://www.youtube.com/watch?v=2Jgm7lhCw-U
 
 ### How to run / build:
 Make sure to have node installed. 
