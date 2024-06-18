@@ -4,6 +4,7 @@
 #### App Store: https://streamcompanion.app/apps
 #### Releases:  https://github.com/raymon-io/streamcompanionCrossPlatform/releases
 #### Reddit post: https://www.reddit.com/r/xqcow/comments/1be1qd0/made_kick_mobile_and_tv_apps_including_android_tv/
+#### Updated Reddit post: https://www.reddit.com/r/xqcow/comments/1dj0er1/update_discussion_on_my_own_custom_kick_tv_mobile/
 #### Youtube Demo: https://www.youtube.com/watch?v=2Jgm7lhCw-U
 
 ### How to run / build:
