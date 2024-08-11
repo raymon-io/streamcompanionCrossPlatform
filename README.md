@@ -1,4 +1,4 @@
-### This project will not receive any further updates. Support for all platforms have been dropped. Most platforms runs the app similar to a client side app so they will continue to work except Windows/Xbox which as of now would not work.
+### This project will not receive any further updates. Support for all platforms have been dropped. Most platforms run the app similarly to a client-side app, so they will continue to work, except for Windows and Xbox, which do not work at this time.
 #### While having so much potential, this project failed to get enough exposure, community support or engagement. The codebase and ui is simple and easy to pick for any other developer. Feel free to reach out or ask questions but I would not be able to fix any issue that come in the future.
 
 ## Stream Companion App (StreamCompanion.App)
